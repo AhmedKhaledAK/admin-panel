@@ -1,0 +1,185 @@
+body{
+	background-color: #ddd;
+}
+.navbar-fixed-left {
+	width: 200px;
+	position: fixed;
+	border-radius: 0;
+	height: 100%;
+	text-align: center;
+}
+.navbar-fixed-left p {
+	color: #fff;
+	margin-top: 20px;
+}
+.navbar-fixed-left p  span {
+	color: #FC9106;
+}
+.navbar-fixed-left .navbar-nav > li {
+	float: none;
+	width: 169px;
+}
+
+.navbar-fixed-left img {
+	width: 70px;
+	height: 70px;
+}
+.navbar-fixed-left .center{
+	transition: all .7s ease-in-out;
+	transform-style: preserve-3d ;  
+}
+.navbar-fixed-left .center:hover{
+	transform: rotate(360deg);
+}
+.navbar-fixed-left .navbar-nav > li  a .fa {
+	color: #aaa;
+	padding-right: 15px;
+}
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a:hover{
+	color:  #FC9106;
+}
+.navbar-nav>li>a {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+/*start container*/
+.content .box1 {
+	background-color: #fff;
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin-top: 30px;
+	padding: 7px; 
+	box-shadow: 10px 10px 5px #888888;
+}
+.content .box1 .box_inner {
+	width: 40%;
+	height: 70px;
+	position: absolute;
+	top: -15px;
+	left: 15px;
+}
+.content .box1 .box_inner .fa {
+	color: #fff;
+	margin-top: 20px;
+}
+.content .box1 h6 {
+	color: #aaa;
+	font-weight:bolder; 
+}
+.content .box1 a {
+	border-top: 1px solid #ccc;
+	padding-top: 5px;
+}
+/*end container*/
+
+/*start panal*/
+.all_panal {
+	margin-top: 30px;
+	margin-left: 90px;
+}
+/*end panal*/
+
+/**/
+.shoping  .shop {
+background-color: #fff;
+width: 100%;
+height: 100px;
+margin-bottom: 15px;
+}
+.shoping  .shop p {
+	line-height: 30px;
+	font-weight: bold;
+}
+.shoping  .shop .items {
+	width: 100%;
+	height: 70px;
+	padding:10px;
+	color: #fff; 
+}
+.marg {
+	margin-top: 80px;
+}
+/* flat-table slider*/
+.table {
+	margin-top: 30px;
+	background-color:  #fff;
+	padding:5px; 
+	z-index: 1;
+}
+.table tr td {
+	padding:5px;
+}
+tbody tr td {
+  font-family: 'Open Sans', sans-serif;
+  font-weight:400;
+  color:#5f6062;
+  font-size:13px;
+  padding:20px 20px 20px 20px;
+  border-bottom:1px solid #e0e0e0;
+}
+.input-group .form-control:last-child,
+.input-group-addon:last-child,
+.input-group-btn:first-child>.btn-group:not(:first-child)>.btn, 
+.input-group-btn:first-child>.btn:not(:first-child), 
+.input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group>.btn,
+.input-group-btn:last-child>.dropdown-toggle{
+	width: 250px;
+}
+.booton a{
+	border-top: 1px solid #FC9106;
+	margin: 15px;
+}
+.box {
+	transition: all .7s ease-in-out;
+}
+.box:hover {
+	transform: scale(1.1,1.1);
+}
+.width {
+}
+
+/* loging */
+.loging {
+	background-image: url(../img/bg_login.jpeg);
+	width: 100%;
+	height: 670px;
+}
+.loging .edit {
+	width: 300px;
+	height: 500px;
+	background-color: #fff;
+	margin: 90px auto;
+	padding: 20px; 
+	transition: all 1s ease-in-out;
+}
+.loging .edit .ads {
+	width: 100%;
+	height: 70px;
+	text-align: center;
+	background-color: #aaa;
+}
+.loging .edit .ads h3 {
+	line-height: 70px;
+	color: #fff;
+}
+.loging .edit:hover {
+	box-shadow: 2px 0px 5px 5px #eee;
+} 
+.loging .edit form {
+	margin-top: 30px;
+}
+.loging .edit form p {
+	font-size: 12px;
+
+}
+.loging .copy {
+	font-size: 10px;
+	text-align: center;
+}
+input[type="file"] {
+    display: block;
+    padding-bottom: 40px;
+}
